@@ -1,8 +1,16 @@
-hash: 1ecb4dff614a34dba3d8e10ee1aa7083dd538ca393783dffaebf7034f679d9c6
-updated: 2017-11-26T19:08:17.788956566+09:00
+hash: 891228c52a598198aa1f2e42b793ad1703cd210d00a0d620d9b873e46e2ddb5d
+updated: 2017-12-10T18:02:49.616855255+09:00
 imports:
+- name: github.com/boj/redistore
+  version: fc113767cd6b051980f260d6dbe84b2740c46ab0
+- name: github.com/garyburd/go-oauth
+  version: 4cff9ef7b7003713efa191899dbaab8fa75e3e73
+  subpackages:
+  - oauth
 - name: github.com/gorilla/context
   version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
 - name: github.com/gorilla/mux
   version: 7f08801859139f86dfafd1c296e2cba9a80d292e
+- name: github.com/gorilla/sessions
+  version: ca9ada44574153444b00d3fd9c8559e4cc95f896
 testImports: []
